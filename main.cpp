@@ -19,7 +19,7 @@ while(n>0){ //petla do czesci calkowitej
 for(int i=0; i<100; i++){ //petla dla czesci ulamkowej
     ulamek=2*ulamek;
 if(ulamek>=1) {u[i]=1; ulamek=ulamek-1;}
-    else u[i]=0;
+    else u[i]=0; //else xd
 }
 cout<<"binarnie to:";
 for(i=0;i<10;i++)cout<<t[i];
